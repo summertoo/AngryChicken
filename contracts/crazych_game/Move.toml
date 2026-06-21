@@ -1,0 +1,7 @@
+[package]
+name = "crazych_game"
+edition = "2024.beta"
+published-at = "0xaaf917ee09c8359c09a716a0665e1d42d90c02597e5508115aa67e5a0d981481"
+
+[addresses]
+crazych_game = "0x0"

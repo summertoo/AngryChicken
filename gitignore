@@ -1,0 +1,66 @@
+# 依赖目录
+node_modules/
+.vscode/
+.idea/
+*.suibin
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 环境变量
+.env
+.env.local
+.env.development
+.env.production
+
+# 构建产物
+dist/
+build/
+out/
+unpackage/
+*.exe
+*.dll
+*.so
+*.a
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖
+coverage/
+.nyc_output/
+
+# 调试文件
+*.pdb
+*.idb
+*.ilk
+
+# 临时目录
+local/
+manager/
+scripts/
+*.bat
+
+# 临时文件
+sync-env.js
+
+# 文档类
+pdf/
+合同样式/
+文档/
+doc/
+docs/
+
+# 备份
+backup/
+
+# 工具
+output/
+
+# 无关的文档
+
+
+
+
