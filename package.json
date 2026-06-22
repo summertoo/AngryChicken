@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "agent": "tsx aiagent/index.ts",
+    "agent:report": "tsx aiagent/index.ts --report",
+    "agent:watch": "tsx aiagent/index.ts --watch"
   },
   "dependencies": {
     "@mysten/sui": "^1.45.2",
@@ -14,7 +17,8 @@
     "box2d-wasm": "^4.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.5.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3",
     "vite": "^5.4.0"
   }
 }

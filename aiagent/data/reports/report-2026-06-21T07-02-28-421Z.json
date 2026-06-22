@@ -1,0 +1,194 @@
+{
+  "timestamp": "2026-06-21T07:02:28.420Z",
+  "levels": {
+    "total": 6,
+    "published": 4,
+    "drafts": 2,
+    "list": [
+      {
+        "id": 1,
+        "name": "森林冒险",
+        "description": "在茂密的森林中消灭虫子",
+        "difficulty": 2,
+        "chickens": 3,
+        "createdAt": "2026-06-15T10:30:00Z",
+        "published": true,
+        "publishDate": "2026-06-16T08:00:00Z",
+        "blobId": "blob_abc123def456",
+        "price": 0.5,
+        "playCount": 342,
+        "rating": 4.5,
+        "ratingCount": 28
+      },
+      {
+        "id": 2,
+        "name": "沙漠风暴",
+        "description": "炙热沙漠中的激烈战斗",
+        "difficulty": 3,
+        "chickens": 4,
+        "createdAt": "2026-06-17T14:20:00Z",
+        "published": true,
+        "publishDate": "2026-06-18T09:30:00Z",
+        "blobId": "blob_ghi789jkl012",
+        "price": 0.3,
+        "playCount": 187,
+        "rating": 4.2,
+        "ratingCount": 15
+      },
+      {
+        "id": 3,
+        "name": "冰雪世界",
+        "description": "在滑溜的冰面上展开攻击",
+        "difficulty": 4,
+        "chickens": 5,
+        "createdAt": "2026-06-18T09:15:00Z",
+        "published": true,
+        "publishDate": "2026-06-19T11:45:00Z",
+        "blobId": "blob_mno345pqr678",
+        "price": 0.4,
+        "playCount": 95,
+        "rating": 3.8,
+        "ratingCount": 9
+      },
+      {
+        "id": 4,
+        "name": "火山地狱",
+        "description": "在岩浆旁击败强敌",
+        "difficulty": 5,
+        "chickens": 5,
+        "createdAt": "2026-06-19T16:00:00Z",
+        "published": false,
+        "publishDate": null,
+        "blobId": null,
+        "price": 0,
+        "playCount": 0,
+        "rating": 0,
+        "ratingCount": 0
+      },
+      {
+        "id": 5,
+        "name": "天空之城",
+        "description": "在云端之上挑战极限",
+        "difficulty": 3,
+        "chickens": 3,
+        "createdAt": "2026-06-20T08:45:00Z",
+        "published": true,
+        "publishDate": "2026-06-20T12:00:00Z",
+        "blobId": "blob_stu901vwx234",
+        "price": 0.6,
+        "playCount": 56,
+        "rating": 5,
+        "ratingCount": 4
+      },
+      {
+        "id": 6,
+        "name": "Draft - 未命名",
+        "description": "",
+        "difficulty": 1,
+        "chickens": 3,
+        "createdAt": "2026-06-20T19:30:00Z",
+        "published": false,
+        "publishDate": null,
+        "blobId": null,
+        "price": 0,
+        "playCount": 0,
+        "rating": 0,
+        "ratingCount": 0
+      }
+    ]
+  },
+  "market": {
+    "summary": {
+      "totalPurchases": 128,
+      "totalRevenue": 45.6,
+      "totalForwards": 67,
+      "totalLikes": 234,
+      "totalDownloads": 89
+    },
+    "recentTransactions": [
+      {
+        "id": 12,
+        "type": "forward",
+        "user": "0x5s6t...7u8v",
+        "levelName": "天空之城",
+        "levelId": 5,
+        "timestamp": "2026-06-17T09:15:00Z"
+      },
+      {
+        "id": 11,
+        "type": "download",
+        "user": "0x1o2p...3q4r",
+        "levelName": "森林冒险",
+        "levelId": 1,
+        "timestamp": "2026-06-17T11:30:00Z"
+      },
+      {
+        "id": 10,
+        "type": "purchase",
+        "user": "0x7k8l...9m0n",
+        "levelName": "天空之城",
+        "levelId": 5,
+        "amount": 0.4,
+        "timestamp": "2026-06-18T14:10:00Z"
+      },
+      {
+        "id": 9,
+        "type": "like",
+        "user": "0x3g4h...5i6j",
+        "levelName": "火山地狱",
+        "levelId": 4,
+        "timestamp": "2026-06-18T15:45:00Z"
+      },
+      {
+        "id": 8,
+        "type": "forward",
+        "user": "0x9c0d...1e2f",
+        "levelName": "沙漠风暴",
+        "levelId": 2,
+        "timestamp": "2026-06-18T21:00:00Z"
+      },
+      {
+        "id": 7,
+        "type": "purchase",
+        "user": "0x5y6z...7a8b",
+        "levelName": "冰雪世界",
+        "levelId": 3,
+        "amount": 0.3,
+        "timestamp": "2026-06-19T16:20:00Z"
+      },
+      {
+        "id": 6,
+        "type": "like",
+        "user": "0x1u2v...3w4x",
+        "levelName": "天空之城",
+        "levelId": 5,
+        "timestamp": "2026-06-19T18:30:00Z"
+      },
+      {
+        "id": 5,
+        "type": "download",
+        "user": "0x7q8r...9s0t",
+        "levelName": "火山地狱",
+        "levelId": 4,
+        "timestamp": "2026-06-19T20:45:00Z"
+      },
+      {
+        "id": 4,
+        "type": "purchase",
+        "user": "0x3m4n...5o6p",
+        "levelName": "森林冒险",
+        "levelId": 1,
+        "amount": 0.5,
+        "timestamp": "2026-06-19T22:10:00Z"
+      },
+      {
+        "id": 3,
+        "type": "forward",
+        "user": "0x9i0j...1k2l",
+        "levelName": "冰雪世界",
+        "levelId": 3,
+        "timestamp": "2026-06-20T12:00:00Z"
+      }
+    ]
+  }
+}

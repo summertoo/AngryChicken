@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "totalPurchases": 128,
+    "totalRevenue": 45.6,
+    "totalForwards": 67,
+    "totalLikes": 234,
+    "totalDownloads": 89
+  },
+  "transactions": [
+    { "id": 1, "type": "purchase", "user": "0x1a2b...3c4d", "levelName": "森林冒险", "levelId": 1, "amount": 0.5, "timestamp": "2026-06-20T14:32:00Z" },
+    { "id": 2, "type": "like", "user": "0x5e6f...7g8h", "levelName": "沙漠风暴", "levelId": 2, "timestamp": "2026-06-20T13:15:00Z" },
+    { "id": 3, "type": "forward", "user": "0x9i0j...1k2l", "levelName": "冰雪世界", "levelId": 3, "timestamp": "2026-06-20T12:00:00Z" },
+    { "id": 4, "type": "purchase", "user": "0x3m4n...5o6p", "levelName": "森林冒险", "levelId": 1, "amount": 0.5, "timestamp": "2026-06-19T22:10:00Z" },
+    { "id": 5, "type": "download", "user": "0x7q8r...9s0t", "levelName": "火山地狱", "levelId": 4, "timestamp": "2026-06-19T20:45:00Z" },
+    { "id": 6, "type": "like", "user": "0x1u2v...3w4x", "levelName": "天空之城", "levelId": 5, "timestamp": "2026-06-19T18:30:00Z" },
+    { "id": 7, "type": "purchase", "user": "0x5y6z...7a8b", "levelName": "冰雪世界", "levelId": 3, "amount": 0.3, "timestamp": "2026-06-19T16:20:00Z" },
+    { "id": 8, "type": "forward", "user": "0x9c0d...1e2f", "levelName": "沙漠风暴", "levelId": 2, "timestamp": "2026-06-18T21:00:00Z" },
+    { "id": 9, "type": "like", "user": "0x3g4h...5i6j", "levelName": "火山地狱", "levelId": 4, "timestamp": "2026-06-18T15:45:00Z" },
+    { "id": 10, "type": "purchase", "user": "0x7k8l...9m0n", "levelName": "天空之城", "levelId": 5, "amount": 0.4, "timestamp": "2026-06-18T14:10:00Z" },
+    { "id": 11, "type": "download", "user": "0x1o2p...3q4r", "levelName": "森林冒险", "levelId": 1, "timestamp": "2026-06-17T11:30:00Z" },
+    { "id": 12, "type": "forward", "user": "0x5s6t...7u8v", "levelName": "天空之城", "levelId": 5, "timestamp": "2026-06-17T09:15:00Z" }
+  ]
+}

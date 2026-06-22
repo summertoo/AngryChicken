@@ -23,6 +23,7 @@ import type { SkinData, UserLevelData } from './web3/SuiClient';
 import { PRESET_SKINS, PRESET_STORAGE_KEY, loadOwnedPresets, saveOwnedPresets } from './web3/PresetSkins';
 import type { PresetSkinConfig } from './web3/PresetSkins';
 
+
 const FIXED_DT = 1 / 60;
 const SETTLE_VELOCITY_THRESHOLD = 0.3;
 

@@ -1,6 +1,6 @@
 # Angry Chicken 🐔🎯
 
-> A Web3 physics puzzle game built on **Sui blockchain** with **Walrus decentralized storage** — slingshot chickens to destroy structures and defeat bugs, with on-chain NFT skins, level pack passes, and a community level marketplace.
+> A Web3 physics puzzle game built on **Sui blockchain** with **Walrus decentralized storage** — slingshot chickens to destroy structures and defeat bugs, with on-chain NFT skins, level pack passes, a community level marketplace, and a standalone **AI Agent** for managing Walrus-published levels and market data.
 >
 > **🔗 Live Demo:** [https://www.etboodonline.com/project](https://www.etboodonline.com/project)
 
@@ -8,6 +8,10 @@
 [![Walrus](https://img.shields.io/badge/Walrus-Storage-00d4aa)](https://walrus.trade)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](#)
 
+> package id（testnet）
+```
+ 0xaaf917ee09c8359c09a716a0665e1d42d90c02597e5508115aa67e5a0d981481
+```
 ---
 
 ## 🎮 Overview
@@ -146,6 +150,7 @@ sui move build
 - **On-chain NFT skins** — craft, unbox, or buy from the shop
 - **Community level editor** — create, publish to Walrus, and monetize on Sui
 - **Level marketplace** — browse, rate, and purchase access to user-generated levels
+- **AI Agent** — standalone CLI agent for tracking custom levels published to Walrus, monitoring marketplace transactions (purchases, likes, forwards, downloads), and generating reports; built-in task scheduler for future automated operations
 - **Seasonal environments** — dynamic weather, time-of-day, and seasons affecting gameplay
 - **Full i18n** — English & Chinese support
 
